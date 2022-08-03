@@ -12,7 +12,7 @@
      
         const email = new URLSearchParams(location.search).get('email');
         if (email){
-            url = url + '#'+email;
+            url = url + '='+email;
         }
         location.replace(url)
     </script>
